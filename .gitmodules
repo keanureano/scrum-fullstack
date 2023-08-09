@@ -1,0 +1,6 @@
+[submodule "scrum-backend"]
+	path = scrum-backend
+	url = https://github.com/keanureano/scrum-backend
+[submodule "scrum-frontend"]
+	path = scrum-frontend
+	url = https://github.com/keanureano/scrum-frontend
