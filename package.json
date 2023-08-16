@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run frontend:dev\" \"npm run backend:dev\"",
+    "frontend:dev": "cd ./scrum-frontend && npm run dev",
+    "backend:dev": "cd ./scrum-backend && ./mvnw spring-boot:run"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
