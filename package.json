@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "concurrently \"npm run frontend:dev\" \"npm run backend:dev\"",
-    "frontend:dev": "cd ./scrum-frontend && npm run dev",
-    "backend:dev": "cd ./scrum-backend && ./mvnw spring-boot:run"
+    "dev": "concurrently \"npm run fdev\" \"npm run bdev\"",
+    "fdev": "cd ./scrum-frontend && npm run dev",
+    "bdev": "cd ./scrum-backend && ./mvnw spring-boot:run"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
