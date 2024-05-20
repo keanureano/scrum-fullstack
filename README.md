@@ -1,7 +1,7 @@
 # Scrum Tracker Fullstack Project
 ## Introduction
 
-The Scrum Tracker Fullstack Project combines the power of the Scrum Tracker Backend API and the Scrum Tracker Frontend to offer a complete Scrum management solution. The backend provides essential functionality for user registration, authentication, data storage, and retrieval. Meanwhile, the frontend offers an intuitive and visually appealing interface for managing teams, users, tasks, and issues, in a Scrum environment.
+The Scrum Tracker Fullstack Project employs Spring Boot for authentication and authorization within its backend. It utilizes JSON Web Tokens (JWT) to securely generate and transfer authentication tokens to the Next.js frontend, enabling user access to system functionalities. This application serves as a scrum tracking tool, capturing scrum data and persisting it in a PostgreSQL database for efficient management and retrieval.
 
 ## Features
 
